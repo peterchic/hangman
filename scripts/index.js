@@ -3,7 +3,7 @@ const words = ['html', 'css', 'javascript', 'sass'];
 // Choose word randomly
 let randomNum = Math.floor(Math.random() * words.length);
 // Create an array of hints that go with the array of words
-let hint = ['The structure of a website', 'The stying of a website', 'The language of the Web', 'A CSS preprocessor'];
+let hint = ['The structure of a website', 'The styling of a website', 'The language of the Web', 'A CSS preprocessor'];
 // Pick a random word from each array
 let chosenWord = words[randomNum];
 let chosenHint = hint[randomNum];
